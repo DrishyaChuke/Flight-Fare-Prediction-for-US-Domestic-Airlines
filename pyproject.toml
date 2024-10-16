@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "adv-mla-at3"
+version = "0.0.0"
+description = "Poetry desc"
+authors = ["Drishya Chuke <drishyachuke98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "4.2.3"
+pandas = "2.2.2"
+scikit-learn = "1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
