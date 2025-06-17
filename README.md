@@ -1,7 +1,42 @@
-adv_mla_at3
-==============================
+# Flight Fare Prediction Web App
 
-Assignmet 3 for adv lma
+This web application provides a user-friendly interface for predicting flight fares based on user inputs such as origin and destination airports, departure date, departure time, and cabin type. Users can select from four machine learning models, enabling comparison and flexibility in fare prediction.
+
+## Features
+
+- **Flight Fare Prediction**: Provides fare predictions based on user inputs.
+- **Model Selection**: Allows users to choose between four different models for fare prediction.
+- **Easy-to-Use Interface**: Dropdowns and date/time pickers ensure an intuitive user experience.
+
+## Getting Started
+
+Follow the instructions below to set up and run the application on your local machine.
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Python 3.x
+- Required Python packages (install via `requirements.txt`)
+
+### Installation
+
+1. Clone the repository or download the code files.
+
+2. Navigate to the project directory:
+   ```app_at3```
+
+3. Install the necessary dependencies:
+    pip install -r requirements.txt
+
+4. Ensure the trained model files are in the same directory as streamlit_app.py or update the file paths as needed.
+
+## Running the APP
+
+1. From the project directory, run the following command to start the Streamlit app:
+    ```streamlit run app.py```
+
+2. Open your browser and go to http://localhost:8501 to access the application.
 
 Project Organization
 ------------
